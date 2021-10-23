@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+/* GLOBALS */
+@import "./variables";
+@import "./globals";
+
+/* PARTIALS */
+@import "./_partials/header";
+@import "./_partials/footer";
+
+/* PAGES */
+@import "./pages/home";

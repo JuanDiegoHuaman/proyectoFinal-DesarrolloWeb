@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 10vw 1fr 10vw;
+    grid-template-rows: 8vh 1fr 8vh;
+    background-color: #EFEFEF;
+    row-gap: 5rem
+}
+
+h2 {
+    font-size: $h2--size;
+    font-family: $h2--fontFamily;
+    color: $h2--color;
+}
+
+p {
+    font-size: $p--size;
+    font-family: $p--fontFamily;
+    color: $p--color;
+    text-align: justify;
+}
