@@ -1,9 +1,5 @@
 /* NOSOTROS */
 
-body {
-    row-gap: 0;
-}
-
 .nosotros {
     grid-column: 2;
     grid-row: 2;
@@ -62,6 +58,7 @@ body {
 
     &__section2 {
         width: 80vw;
+        margin: 4rem 0 0 0;
 
         &__titulo {
             position: relative;
@@ -85,6 +82,35 @@ body {
     
                 h2 {
                     padding: 0.1rem 11rem;
+                }
+            }
+        }
+
+        &__division {
+            width: 80vw;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            margin-top: 2rem;
+
+            &__img {
+                width: 39vw;
+                height: 40vh;
+                background-image: url("../img/img5.jpeg");
+                background-size: cover;
+            }
+
+            &__texto {
+                width: 39vw;
+                height: 40vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    margin: 0;
+                    display: inline-block;
+                    color: #0D203D;
                 }
             }
         }
