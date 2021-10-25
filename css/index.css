@@ -276,3 +276,75 @@ header {
           margin: 0;
           display: inline-block;
           color: #0D203D; }
+
+/* PRODUCTOS */
+.productos {
+  grid-column: 2;
+  grid-row: 2; }
+  .productos__section1 {
+    width: 80vw; }
+    .productos__section1__titulo {
+      position: relative;
+      height: 9rem; }
+      .productos__section1__titulo__fondoTitulo1 {
+        width: 40rem;
+        height: 7rem;
+        background-color: #DAE5F7;
+        position: absolute;
+        right: -10vw;
+        z-index: -1; }
+      .productos__section1__titulo__fondoTitulo2 {
+        display: inline-block;
+        background-color: #11284C;
+        position: absolute;
+        right: 0;
+        top: 2.5rem; }
+        .productos__section1__titulo__fondoTitulo2 h2 {
+          padding: 0.1rem 11rem; }
+    .productos__section1__division {
+      width: 80vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 2rem; }
+      .productos__section1__division__img {
+        width: 39vw;
+        height: 40vh;
+        background-image: url("../img/img6.jpeg");
+        background-size: cover; }
+      .productos__section1__division__texto {
+        width: 39vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .productos__section1__division__texto p {
+          margin: 0;
+          display: inline-block;
+          color: #0D203D; }
+  .productos__section2 {
+    margin-top: 5rem; }
+    .productos__section2__titulo {
+      width: 80vw;
+      background-color: #14305B; }
+      .productos__section2__titulo h2 {
+        margin: 0;
+        text-align: center;
+        padding: 0.5rem 0; }
+    .productos__section2__cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 4rem; }
+      .productos__section2__cards .card {
+        width: 38vw; }
+        .productos__section2__cards .card .card-title {
+          font-size: 3.5rem;
+          color: #11284C;
+          text-align: center; }
+        .productos__section2__cards .card p {
+          color: #11284C;
+          font-size: 2rem; }
+        .productos__section2__cards .card .list-group-item {
+          color: #11284C;
+          font-size: 1.5rem; }

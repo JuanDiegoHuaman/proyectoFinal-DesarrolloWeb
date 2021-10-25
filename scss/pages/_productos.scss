@@ -1,0 +1,108 @@
+/* PRODUCTOS */
+
+.productos {
+    grid-column: 2;
+    grid-row: 2;
+
+    &__section1 {
+        width: 80vw;
+
+        &__titulo {
+            position: relative;
+            height: 9rem;
+
+            &__fondoTitulo1 {
+                width: 40rem;
+                height: 7rem;
+                background-color: #DAE5F7;
+                position: absolute;
+                right: -10vw;
+                z-index: -1;
+            }
+    
+            &__fondoTitulo2 {
+                display: inline-block;
+                background-color: #11284C;
+                position: absolute;
+                right: 0;
+                top: 2.5rem;
+    
+                h2 {
+                    padding: 0.1rem 11rem;
+                }
+            }
+        }
+
+        &__division {
+            width: 80vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 2rem;
+
+            &__img {
+                width: 39vw;
+                height: 40vh;
+                background-image: url("../img/img6.jpeg");
+                background-size: cover;
+            }
+
+            &__texto {
+                width: 39vw;
+                height: 40vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    margin: 0;
+                    display: inline-block;
+                    color: #0D203D;
+                }
+            }
+        }
+    }
+
+    &__section2 {
+        margin-top: 5rem;
+
+        &__titulo {
+            width: 80vw;
+            background-color: #14305B;
+
+            h2 {
+                margin: 0;
+                text-align: center;
+                padding: 0.5rem 0;
+
+            }
+        }
+
+        &__cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 4rem;
+
+            .card {
+                width: 38vw;
+
+                .card-title {
+                    font-size: 3.5rem;
+                    color: #11284C;
+                    text-align: center;
+                }
+
+                p {
+                    color: #11284C;
+                    font-size: 2rem;
+                }
+
+                .list-group-item {
+                    color: #11284C;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
