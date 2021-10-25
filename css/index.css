@@ -22,7 +22,7 @@ h2 {
   font-family: "'Andada Pro', serif";
   color: #FFFFFF; }
 
-p {
+p, address {
   font-size: 2.5rem;
   font-family: "'Andada Pro', serif";
   color: #FFFFFF;
@@ -384,3 +384,44 @@ header {
         width: 38vw; }
         .clientes__section2__info__Apple h2, .clientes__section2__info__Apple p {
           color: #11284C; }
+
+/* CONTACTO */
+.contacto {
+  width: 80vw;
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .contacto__section1__fondo {
+    width: 38vw;
+    height: 72vh;
+    background-color: #DAE5F7;
+    position: relative; }
+  .contacto__section1__cuerpo {
+    width: 38vw;
+    height: 72vh;
+    background-color: #11284C;
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+    .contacto__section1__cuerpo h2 {
+      background-color: #DAE5F7;
+      color: #11284C;
+      display: inline-block;
+      margin-top: 5rem;
+      padding: 0.5rem 4rem; }
+    .contacto__section1__cuerpo address {
+      margin: 2rem; }
+  .contacto__section2 {
+    width: 35vw;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .contacto__section2 .form-label {
+      font-size: 2rem;
+      font-family: "'Andada Pro', serif";
+      color: #11284C; }
+    .contacto__section2 .form-select {
+      margin-bottom: 1rem; }
