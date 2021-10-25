@@ -1,0 +1,64 @@
+/* CLIENTES */
+
+.clientes {
+    width: 80vw;
+    grid-column: 2;
+    grid-row: 2;
+
+    &__section1 {
+    
+        &__img {
+
+            img {
+                width: 80vw;
+            }
+        }
+    }
+
+    &__section2 {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+
+        &__titulo {
+            width: 80vw;
+            background-color: #14305B;
+
+
+            h2 {
+                padding: 0.5rem;
+                margin: 0;
+                text-align: center;
+            }
+        }
+
+        #carouselExampleControls {
+            width: 65vw;
+        }
+
+        &__info {
+            width: 80vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            &__IBM {
+                width: 38vw;
+
+                h2,p {
+                    color: #11284C;
+                }
+            }
+
+            &__Apple {
+                width: 38vw;
+
+                h2,p {
+                    color: #11284C;
+                }
+            }
+        }
+    }
+}

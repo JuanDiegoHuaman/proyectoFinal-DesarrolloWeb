@@ -348,3 +348,39 @@ header {
         .productos__section2__cards .card .list-group-item {
           color: #11284C;
           font-size: 1.5rem; }
+
+/* CLIENTES */
+.clientes {
+  width: 80vw;
+  grid-column: 2;
+  grid-row: 2; }
+  .clientes__section1__img img {
+    width: 80vw; }
+  .clientes__section2 {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem; }
+    .clientes__section2__titulo {
+      width: 80vw;
+      background-color: #14305B; }
+      .clientes__section2__titulo h2 {
+        padding: 0.5rem;
+        margin: 0;
+        text-align: center; }
+    .clientes__section2 #carouselExampleControls {
+      width: 65vw; }
+    .clientes__section2__info {
+      width: 80vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .clientes__section2__info__IBM {
+        width: 38vw; }
+        .clientes__section2__info__IBM h2, .clientes__section2__info__IBM p {
+          color: #11284C; }
+      .clientes__section2__info__Apple {
+        width: 38vw; }
+        .clientes__section2__info__Apple h2, .clientes__section2__info__Apple p {
+          color: #11284C; }
