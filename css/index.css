@@ -505,12 +505,12 @@ header {
   justify-content: space-between; }
   .contacto__section1__fondo {
     width: 38vw;
-    height: 72vh;
+    height: 80vh;
     background-color: #DAE5F7;
     position: relative; }
   .contacto__section1__cuerpo {
     width: 38vw;
-    height: 72vh;
+    height: 80vh;
     background-color: #11284C;
     position: absolute;
     top: 4rem;
@@ -535,3 +535,29 @@ header {
       color: #11284C; }
     .contacto__section2 .form-select {
       margin-bottom: 1rem; }
+
+@media only screen and (max-width: 900px) {
+  .contacto {
+    flex-direction: column;
+    row-gap: 7rem; }
+    .contacto__section1__fondo {
+      width: 76vw; }
+    .contacto__section1__cuerpo {
+      width: 76vw; }
+    .contacto__section2 {
+      width: 80vw; } }
+
+@media only screen and (max-width: 670px) {
+  .contacto h2 {
+    font-size: 3rem;
+    padding: 0.5rem 2rem; }
+  .contacto address {
+    font-size: 1.5rem; }
+  .contacto__section1__fondo {
+    width: 70vw;
+    height: 60vh; }
+  .contacto__section1__cuerpo {
+    width: 70vw;
+    height: 60vh;
+    top: 2rem;
+    left: 2rem; } }
