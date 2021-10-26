@@ -116,3 +116,116 @@
         }
     }
 }
+
+@media only screen and (max-width: 940px) {
+
+    .nosotros {
+        
+        &__section1 {
+
+            &__division {
+                flex-direction: column;
+
+                &__img {
+                    width: 80vw;
+                    height: 60vh;
+                }
+
+                &__texto {
+                    width: 80vw;
+                }
+            }
+        }
+
+        &__section2 {
+            margin-top: 4rem;
+
+            &__titulo {
+                
+                &__fondoTitulo2 {
+
+                    h2 {
+                        padding: 0.1rem 6rem;
+                    }
+                }
+            }
+
+            &__division {
+                flex-direction: column;
+
+                &__img {
+                    width: 80vw;
+                    height: 60vh;
+                }
+
+                &__texto {
+                    width: 80vw;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .nosotros {
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        &__section1 {
+
+            &__fondoTitulo1 {
+                height: 4.5rem;
+                width: 80vw;
+                top: 3rem;
+            }
+
+            &__fondoTitulo2 {
+                
+                h2 {
+                    padding: 0.1rem 1rem;
+                }
+            }
+
+            &__division {
+
+                &__texto {
+                    height: auto;
+                    margin: 1.5rem 0;
+                }
+            }
+        }
+
+        &__section2 {
+
+            &__titulo {
+
+                &__fondoTitulo1 {
+                    height: 4.5rem;
+                    width: 80vw;
+                }
+
+                &__fondoTitulo2 {
+
+                    h2 {
+                        padding: 0.1rem 1rem;
+                    }
+                }
+            }
+
+            &__division {
+
+                &__texto {
+                    height: auto;
+                    margin: 1.5rem 0;
+                }
+            }
+        }
+    }
+}
