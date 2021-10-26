@@ -32,7 +32,7 @@ p, address {
 header {
   grid-column: 1/4;
   grid-row: 1;
-  z-index: 1;
+  z-index: 2;
   height: 8vh;
   width: 100vw;
   position: sticky;
@@ -435,12 +435,34 @@ header {
       justify-content: space-between; }
       .clientes__section2__info__IBM {
         width: 38vw; }
-        .clientes__section2__info__IBM h2, .clientes__section2__info__IBM p {
+        .clientes__section2__info__IBM h2 {
+          color: #11284C;
+          text-align: center; }
+        .clientes__section2__info__IBM p {
           color: #11284C; }
       .clientes__section2__info__Apple {
         width: 38vw; }
-        .clientes__section2__info__Apple h2, .clientes__section2__info__Apple p {
+        .clientes__section2__info__Apple h2 {
+          color: #11284C;
+          text-align: center; }
+        .clientes__section2__info__Apple p {
           color: #11284C; }
+
+@media only screen and (max-width: 730px) {
+  .clientes__section2__info {
+    flex-direction: column; }
+    .clientes__section2__info__IBM {
+      width: 80vw; }
+    .clientes__section2__info__Apple {
+      width: 80vw; } }
+
+@media only screen and (max-width: 670px) {
+  .clientes h2 {
+    font-size: 3rem; }
+  .clientes p {
+    font-size: 1.5rem; }
+  .clientes__section2 #carouselExampleControls {
+    width: 80vw; } }
 
 /* CONTACTO */
 .contacto {

@@ -47,7 +47,12 @@
             &__IBM {
                 width: 38vw;
 
-                h2,p {
+                h2 {
+                    color: #11284C;
+                    text-align: center;
+                }
+
+                p {
                     color: #11284C;
                 }
             }
@@ -55,9 +60,56 @@
             &__Apple {
                 width: 38vw;
 
-                h2,p {
+                h2 {
+                    color: #11284C;
+                    text-align: center;
+                }
+
+                p {
                     color: #11284C;
                 }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 730px) {
+
+    .clientes {
+
+        &__section2 {
+            
+            &__info {
+                flex-direction: column;
+
+                &__IBM {
+                    width: 80vw;
+                }
+
+                &__Apple {
+                    width: 80vw;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .clientes {
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        &__section2 {
+
+            #carouselExampleControls {
+                width: 80vw;
             }
         }
     }
