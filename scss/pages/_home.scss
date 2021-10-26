@@ -137,6 +137,8 @@
             &__division1 {
                 grid-column: 2/4;
                 width: 76vw;
+                height: auto;
+                display: flex;
             }
 
             &__division2 {
@@ -159,6 +161,7 @@
             display: flex;
             flex-direction: column;
             row-gap: 2rem;
+            height: auto;
 
             &__division1 {
                 width: 80vw;
@@ -169,6 +172,35 @@
             display: flex;
             flex-direction: column;
             row-gap: 1.5rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .home {
+
+        h2 {
+            font-size: 3rem;
+        }
+    
+        p {
+            font-size: 1.5rem;
+        }
+
+        &__section2 {
+
+            &__fondoTitulo1 {
+                width: 30rem;
+                height: 5rem;
+            }
+
+            &__fondoTitulo2 {
+
+                h2 {
+                    padding: 0.5rem 2rem;
+                }
+            }
         }
     }
 }
