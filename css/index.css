@@ -406,6 +406,37 @@ header {
           color: #11284C;
           font-size: 1.5rem; }
 
+@media only screen and (max-width: 940px) {
+  .productos__section1__titulo__fondoTitulo1 {
+    height: 4.5rem;
+    width: 80vw;
+    top: 1rem; }
+  .productos__section1__titulo__fondoTitulo2 h2 {
+    padding: 0.1rem 3rem; }
+  .productos__section1__division {
+    flex-direction: column; }
+    .productos__section1__division__img {
+      width: 80vw;
+      height: 60vh; }
+    .productos__section1__division__texto {
+      width: 80vw; }
+  .productos__section2 {
+    margin-top: 3rem; } }
+
+@media only screen and (max-width: 670px) {
+  .productos h2 {
+    font-size: 3rem; }
+  .productos p {
+    font-size: 1.5rem; }
+  .productos__section1__division__texto {
+    height: auto;
+    margin: 1.5rem 0; }
+  .productos__section2__cards {
+    flex-direction: column;
+    row-gap: 2rem; }
+    .productos__section2__cards .card {
+      width: 80vw; } }
+
 /* CLIENTES */
 .clientes {
   width: 80vw;
